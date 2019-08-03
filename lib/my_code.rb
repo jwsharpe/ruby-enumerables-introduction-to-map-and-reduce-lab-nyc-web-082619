@@ -17,4 +17,10 @@ def map_to_double(array)
   end
 end
 
-def 
+def map_to_square(array)
+  new_array = []
+  for x in array
+    new_array.push(x**0.5)
+  end
+end
+
