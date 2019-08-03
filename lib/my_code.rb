@@ -38,7 +38,7 @@ def reduce_to_all_true(array)
       return FALSE
     end
   end
-  TRUE
+  return TRUE
 end
 
 def reduce_to_any_true(array)
@@ -47,5 +47,5 @@ def reduce_to_any_true(array)
       return TRUE
     end
   end
-  FALSE
+  return FALSE
 end
