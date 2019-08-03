@@ -21,7 +21,7 @@ end
 def map_to_square(array)
   new_array = []
   for x in array
-    new_array.push(x**0.5)
+    new_array.push(x**2)
   end
   return new_array
 end
