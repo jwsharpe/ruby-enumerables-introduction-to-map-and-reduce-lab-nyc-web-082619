@@ -26,7 +26,7 @@ def map_to_square(array)
   return new_array
 end
 
-def reduce_to_total(array, index)
+def reduce_to_total(array, index = 0)
   sum = 0
   while array[index] do
     sum += array[index]
