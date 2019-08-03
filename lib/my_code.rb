@@ -28,7 +28,7 @@ def reduce_to_total(array, index)
   sum = 0
   while array[index] do
     sum += array[index]
-    index++
+    index += 1
   end
 end
 
